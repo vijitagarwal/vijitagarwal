@@ -1,74 +1,51 @@
+```markdown
 <div align="center">
 
-<img src="assets/banner.png" width="100%" alt="Banner"/>
+<img src="assets/banner.png" width="100%" alt="Vijit Agarwal Banner" />
 
-# Hi, I'm Vijit 👋
+# Hi, I'm Vijit Agarwal 👋
 
-### Software Engineering Student • Machine Learning Engineering Intern @ FlyRank AI
+### Software Engineering Student • Building intelligent software for real-world problems
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3500&pause=1000&color=7AA2F7&center=true&vCenter=true&width=900&lines=Building+AI-powered+software+that+solves+real-world+problems.;Software+Engineer+who+happens+to+use+AI.;Full+Stack+Developer.;Always+Learning.+Always+Building." />
+<p>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3500&pause=1000&color=7AA2F7&center=true&vCenter=true&width=900&lines=Building+AI-powered+software+that+solves+real-world+problems.;Software+Engineer+who+happens+to+use+AI.;Learning.+Building.+Shipping.;Always+curious.+Always+improving."/>
+</p>
+
+<p>
+<a href="https://linkedin.com/in/agarwalvijit">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:vijitagarwal123@gmail.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://x.com/VijitCodes">
+<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
+</a>
+
+</p>
 
 </div>
 
 ---
 
-## About
+# About
 
-I'm a Software Engineering student at **Chanakya University** with a strong interest in building scalable software systems.
+I'm a **Software Engineering student** at **Chanakya University** interested in building scalable software systems with a strong focus on backend engineering, cloud technologies, and artificial intelligence.
 
-Currently, I'm working as a **Machine Learning Engineering Intern at FlyRank AI**, where I'm learning how production ML systems are built and deployed.
-
-My interests include:
-
-- Software Engineering
-- Artificial Intelligence
-- Cloud Computing
-- Cybersecurity
+I enjoy turning ideas into products that solve real problems rather than building projects just to learn a framework. Currently, I'm gaining hands-on experience in machine learning while continuing to strengthen my software engineering fundamentals through personal projects and continuous learning.
 
 ---
 
-## Current Focus
+# Currently Building
 
-- Building production-ready software
-- Full Stack Development
-- Machine Learning Engineering
-- Docker & Containers
-- Google Cloud
-- System Design
-
----
-
-## Tech Stack
-
-### Languages
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,java,cpp,c,js" />
-</p>
-
-### Frontend
-
-<p>
-<img src="https://skillicons.dev/icons?i=react,html,css,tailwind" />
-</p>
-
-### Backend
-
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,fastapi" />
-</p>
-
-### Database
-
-<p>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis" />
-</p>
-
-### Cloud & DevOps
-
-<p>
-<img src="https://skillicons.dev/icons?i=docker,gcp,git,github,linux" />
-</p>
+- 🎯 FocusFriend — AI-powered productivity platform
+- 🤖 Learning production Machine Learning workflows
+- ⚙️ Full Stack Applications
+- 🐳 Docker & Containerized Development
+- ☁️ Cloud-native deployments
+- 📚 Strengthening Data Structures, Algorithms & System Design
 
 ---
 
@@ -76,23 +53,81 @@ My interests include:
 
 ## 🎯 FocusFriend
 
-AI-powered productivity platform that helps students improve focus using Pomodoro sessions, analytics and personalized insights.
+An AI-powered productivity platform designed to help users build better focus habits through analytics, Pomodoro sessions, and intelligent insights.
+
+**Tech**
+
+React • FastAPI • PostgreSQL • Supabase • Tailwind CSS
+
+➡️ Repository: `Coming Soon`
 
 ---
 
 ## 📊 DataDarshanam
 
-A conversational Business Intelligence dashboard that converts natural language into meaningful business insights.
+A conversational Business Intelligence dashboard that transforms natural language into actionable business insights.
+
+**Tech**
+
+Python • FastAPI • Streamlit • PostgreSQL
+
+➡️ Repository: `Coming Soon`
 
 ---
 
 ## 🚀 MissionControl
 
-A software platform focused on improving productivity and project organization.
+A modern productivity platform focused on organizing work, improving execution, and simplifying project management.
+
+**Tech**
+
+React • Node.js • MongoDB
+
+➡️ Repository: `Coming Soon`
 
 ---
 
-## GitHub Stats
+# Tech Stack
+
+### Languages
+
+<p>
+<img src="https://skillicons.dev/icons?i=python,java,cpp,c,js"/>
+</p>
+
+### Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,html,css,tailwind"/>
+</p>
+
+### Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,fastapi"/>
+</p>
+
+### Databases
+
+<p>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis"/>
+</p>
+
+### Cloud & DevOps
+
+<p>
+<img src="https://skillicons.dev/icons?i=docker,gcp,linux,git,github"/>
+</p>
+
+### Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=vscode,postman,figma"/>
+</p>
+
+---
+
+# GitHub Analytics
 
 <p align="center">
 
@@ -104,13 +139,13 @@ A software platform focused on improving productivity and project organization.
 
 <p align="center">
 
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vijitagarwal&layout=compact&theme=tokyonight&hide_border=true"/>
+<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vijitagarwal&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </p>
 
 ---
 
-## Contribution Graph
+# Contribution Activity
 
 <p align="center">
 
@@ -120,28 +155,29 @@ A software platform focused on improving productivity and project organization.
 
 ---
 
-## Connect
+# Let's Connect
 
-<p>
+<p align="center">
 
 <a href="https://linkedin.com/in/agarwalvijit">
 <img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
-
-<a href="https://x.com/VijitCodes">
-<img src="https://skillicons.dev/icons?i=twitter"/>
 </a>
 
 <a href="mailto:vijitagarwal123@gmail.com">
 <img src="https://skillicons.dev/icons?i=gmail"/>
 </a>
 
+<a href="https://x.com/VijitCodes">
+<img src="https://skillicons.dev/icons?i=twitter"/>
+</a>
+
 </p>
 
 ---
 
-<p align="center">
+<div align="center">
 
-![](https://komarev.com/ghpvc/?username=vijitagarwal&style=for-the-badge&color=7AA2F7)
+*"Building software that creates real-world impact."*
 
-</p>
+</div>
+```
