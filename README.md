@@ -138,15 +138,15 @@ A modern productivity platform focused on organizing work, improving execution a
 
 <p align="center">
 
-<a href="https://linkedin.com/in/agarwalvijit">
+<a href="https://linkedin.com/in/agarwalvijit" target="_blank">
 <img src="https://skillicons.dev/icons?i=linkedin"/>
 </a>
 
-<a href="mailto:vijitagarwal123@gmail.com">
+<a href="mailto:vijitagarwal123@gmail.com" target="_blank">
 <img src="https://skillicons.dev/icons?i=gmail"/>
 </a>
 
-<a href="https://x.com/VijitCodes">
+<a href="https://x.com/VijitCodes" target="_blank">
 <img src="https://skillicons.dev/icons?i=twitter"/>
 </a>
 
