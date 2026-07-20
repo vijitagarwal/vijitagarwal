@@ -10,19 +10,6 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3500&pause=1000&color=7AA2F7&center=true&vCenter=true&width=900&lines=Building+AI-powered+software+that+solves+real-world+problems.;Software+Engineer+who+happens+to+use+AI.;Learning.+Building.+Shipping.;Always+curious.+Always+improving."/>
 </p>
 
-<p>
-<a href="https://linkedin.com/in/agarwalvijit">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:vijitagarwal123@gmail.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://x.com/VijitCodes">
-<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
-</a>
-</p>
 
 </div>
 
