@@ -113,22 +113,7 @@ A modern productivity platform focused on organizing work, improving execution a
 
 ---
 
-# 📈 GitHub Analytics
 
-<p align="center">
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=vijitagarwal&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800"/>
-
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vijitagarwal&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800"/>
-
-</p>
-
-<p align="center">
-
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vijitagarwal&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</p>
-
----
 
 # 📊 Contribution Activity
 
