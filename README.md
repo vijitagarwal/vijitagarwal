@@ -113,15 +113,14 @@ A modern productivity platform focused on organizing work, improving execution a
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Streak
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=vijitagarwal&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=86400" />
-  <img height="170" src="https://streak-stats.demolab.com?user=vijitagarwal&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=vijitagarwal&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vijitagarwal&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=86400" />
+  <i>Building consistently, one commit at a time.</i>
 </p>
 
 # 📊 Contribution Activity
