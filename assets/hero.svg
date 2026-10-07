@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="388" viewBox="0 0 1000 388" role="img" aria-labelledby="t d">
+<title id="t">Vijit Agarwal, software engineer</title>
+<desc id="d">An animated request trace. A root span, vijit.ship(), contains ui, api, auth, ai, database and deploy spans, ending in 200 OK.</desc>
+<style>
+.mono{font-family:ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace}
+.bar{animation:grow .62s cubic-bezier(.22,.8,.24,1) backwards}
+.lbl,.pill{animation:fade .5s ease-out backwards}
+@keyframes grow{from{transform:scaleX(0)}}
+@keyframes fade{from{opacity:0}}
+@media (prefers-reduced-motion:reduce){.bar,.lbl,.pill{animation:none}}
+</style>
+<rect x="1" y="1" width="998" height="386" rx="18" fill="#1a1b26" stroke="#292e42" stroke-width="2"/>
+<text x="48" y="86" fill="#eef1ff" font-family="'Segoe UI Variable Display','SF Pro Display',system-ui,-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="60" font-weight="800" letter-spacing="-1.6">Vijit Agarwal</text>
+<text x="50" y="120" fill="#a9b1d6" font-family="'Segoe UI Variable Display','SF Pro Display',system-ui,-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="21">Software engineer. I build full-stack products and wire AI into them.</text>
+<g class="pill" style="animation-delay:2.55s"><rect x="838" y="40" width="114" height="34" rx="17" fill="#9ece6a" fill-opacity=".12" stroke="#9ece6a" stroke-opacity=".45"/><circle cx="858" cy="57" r="4.5" fill="#9ece6a"/><text class="mono" x="872" y="62.5" fill="#9ece6a" font-size="15" font-weight="700">200 OK</text></g>
+<rect x="24" y="148" width="952" height="216" rx="12" fill="#16161e" stroke="#292e42"/>
+<line x1="520.0" y1="160" x2="520.0" y2="352" stroke="#292e42" stroke-width="1"/>
+<line x1="628.0" y1="160" x2="628.0" y2="352" stroke="#292e42" stroke-width="1"/>
+<line x1="736.0" y1="160" x2="736.0" y2="352" stroke="#292e42" stroke-width="1"/>
+<line x1="844.0" y1="160" x2="844.0" y2="352" stroke="#292e42" stroke-width="1"/>
+<line x1="952.0" y1="160" x2="952.0" y2="352" stroke="#292e42" stroke-width="1"/>
+<g class="lbl" style="animation-delay:0.20s"><rect x="48" y="171" width="8" height="8" rx="2" fill="#c0caf5"/><text class="mono" x="64" y="180" fill="#eef1ff" font-size="14" font-weight="700">vijit.ship()</text><text class="mono" x="244" y="179.5" fill="#8690ba" font-size="12.5">idea to deployed</text></g>
+<rect class="bar" x="520" y="168.0" width="432" height="14" rx="4" fill="#3d4468" style="animation-duration:.95s;transform-origin:520px 175px;animation-delay:0.35s"/>
+<g class="lbl" style="animation-delay:0.55s"><rect x="68" y="198" width="8" height="8" rx="2" fill="#7aa2f7"/><text class="mono" x="84" y="207" fill="#c0caf5" font-size="14" font-weight="600">ui.render</text><text class="mono" x="244" y="206.5" fill="#8690ba" font-size="12.5">react, typescript, tailwind</text></g>
+<rect class="bar" x="532" y="195.0" width="132" height="14" rx="4" fill="#7aa2f7" style="transform-origin:532px 202px;animation-delay:0.70s"/>
+<g class="lbl" style="animation-delay:0.85s"><rect x="68" y="225" width="8" height="8" rx="2" fill="#bb9af7"/><text class="mono" x="84" y="234" fill="#c0caf5" font-size="14" font-weight="600">api.handle</text><text class="mono" x="244" y="233.5" fill="#8690ba" font-size="12.5">fastapi, node/express, socket.io</text></g>
+<rect class="bar" x="648" y="222.0" width="140" height="14" rx="4" fill="#bb9af7" style="transform-origin:648px 229px;animation-delay:1.00s"/>
+<g class="lbl" style="animation-delay:1.15s"><rect x="88" y="252" width="8" height="8" rx="2" fill="#f7768e"/><text class="mono" x="104" y="261" fill="#c0caf5" font-size="14" font-weight="600">auth.verify</text><text class="mono" x="244" y="260.5" fill="#8690ba" font-size="12.5">cybersecurity minor</text></g>
+<rect class="bar" x="658" y="249.0" width="46" height="14" rx="4" fill="#f7768e" style="transform-origin:658px 256px;animation-delay:1.30s"/>
+<g class="lbl" style="animation-delay:1.45s"><rect x="68" y="279" width="8" height="8" rx="2" fill="#ff9e64"/><text class="mono" x="84" y="288" fill="#c0caf5" font-size="14" font-weight="600">ai.infer</text><text class="mono" x="244" y="287.5" fill="#8690ba" font-size="12.5">groq, embeddings, scikit-learn</text></g>
+<rect class="bar" x="770" y="276.0" width="110" height="14" rx="4" fill="#ff9e64" style="transform-origin:770px 283px;animation-delay:1.60s"/>
+<g class="lbl" style="animation-delay:1.75s"><rect x="68" y="306" width="8" height="8" rx="2" fill="#73daca"/><text class="mono" x="84" y="315" fill="#c0caf5" font-size="14" font-weight="600">db.query</text><text class="mono" x="244" y="314.5" fill="#8690ba" font-size="12.5">postgres, supabase, bigquery</text></g>
+<rect class="bar" x="848" y="303.0" width="78" height="14" rx="4" fill="#73daca" style="transform-origin:848px 310px;animation-delay:1.90s"/>
+<g class="lbl" style="animation-delay:2.05s"><rect x="68" y="333" width="8" height="8" rx="2" fill="#9ece6a"/><text class="mono" x="84" y="342" fill="#c0caf5" font-size="14" font-weight="600">deploy</text><text class="mono" x="244" y="341.5" fill="#8690ba" font-size="12.5">cloud run, vercel, github actions</text></g>
+<rect class="bar" x="900" y="330.0" width="52" height="14" rx="4" fill="#9ece6a" style="transform-origin:900px 337px;animation-delay:2.20s"/>
+</svg>
