@@ -10,8 +10,8 @@
 </style>
 <rect x="1" y="1" width="998" height="250" rx="18" fill="#1a1b26" stroke="#292e42" stroke-width="2"/>
 <text x="48" y="62" fill="#eef1ff" font-family="'Segoe UI Variable Display','SF Pro Display',system-ui,-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="-.4">Primary language across my public repos</text>
-<text class="mono" x="952" y="48" text-anchor="end" fill="#a9b1d6" font-size="14"><tspan fill="#eef1ff" font-weight="700">263</tspan> contributions in the last year</text>
-<text class="mono" x="952" y="70" text-anchor="end" fill="#a9b1d6" font-size="14"><tspan fill="#eef1ff" font-weight="700">16</tspan> public repositories</text>
+<text class="mono" x="952" y="48" text-anchor="end" fill="#a9b1d6" font-size="14"><tspan fill="#eef1ff" font-weight="700">16</tspan> public repositories</text>
+<text class="mono" x="952" y="70" text-anchor="end" fill="#a9b1d6" font-size="14"><tspan fill="#eef1ff" font-weight="700">5</tspan> languages</text>
 <rect class="seg" x="48.0" y="92" width="356.8" height="24" rx="5" fill="#3178c6" style="transform-origin:48.0px 104px;animation-delay:0.15s"/>
 <rect class="seg" x="407.8" y="92" width="237.9" height="24" rx="5" fill="#3572A5" style="transform-origin:407.8px 104px;animation-delay:0.27s"/>
 <rect class="seg" x="648.7" y="92" width="118.9" height="24" rx="5" fill="#f1e05a" style="transform-origin:648.7px 104px;animation-delay:0.39s"/>
@@ -22,5 +22,5 @@
 <g class="lbl" style="animation-delay:0.75s"><rect x="656" y="155" width="12" height="12" rx="3" fill="#f1e05a"/><text class="mono" x="678" y="166" fill="#c0caf5" font-size="15" font-weight="600">JavaScript</text><text class="mono" x="918" y="166" text-anchor="end" fill="#8690ba" font-size="15">13.3%</text></g>
 <g class="lbl" style="animation-delay:0.75s"><rect x="48" y="187" width="12" height="12" rx="3" fill="#e34c26"/><text class="mono" x="70" y="198" fill="#c0caf5" font-size="15" font-weight="600">HTML</text><text class="mono" x="310" y="198" text-anchor="end" fill="#8690ba" font-size="15">13.3%</text></g>
 <g class="lbl" style="animation-delay:0.75s"><rect x="352" y="187" width="12" height="12" rx="3" fill="#f34b7d"/><text class="mono" x="374" y="198" fill="#c0caf5" font-size="15" font-weight="600">C++</text><text class="mono" x="614" y="198" text-anchor="end" fill="#8690ba" font-size="15">6.7%</text></g>
-<text class="mono" x="48" y="232" fill="#6a7299" font-size="12">rendered by scripts/update_profile.py on 2026-10-07 UTC</text>
+<text class="mono" x="48" y="232" fill="#6a7299" font-size="12">rendered by scripts/update_profile.py on 2026-10-08 UTC</text>
 </svg>

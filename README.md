@@ -8,7 +8,7 @@
   <a href="mailto:vijitagarwal123@gmail.com"><img alt="Email" src="https://img.shields.io/badge/email-vijitagarwal123%40gmail.com-9ece6a?style=flat-square&labelColor=1a1b26"></a>
 </p>
 
-BCA student in Bengaluru (Software Engineering major, Cybersecurity minor). I build full-stack products and treat the AI part like any other dependency: it gets an interface, limits and a retry policy.
+BCA student at Chanakya University in Bengaluru (Software Engineering major, Cybersecurity minor). I build full-stack products and treat the AI part like any other dependency: it gets an interface, limits and a retry policy.
 
 ```yaml
 now:
@@ -26,6 +26,10 @@ now:
 ### [DataDarshanam](https://github.com/vijitagarwal/DataDarshanam)
 
 Ask a question about your data in plain English and get an interactive dashboard plus a short written takeaway. Started as a GFG hackathon build, now a full-stack rebuild.
+
+<p align="center">
+  <img src="assets/dataflow.svg" alt="Animated diagram: Next.js sends a question to FastAPI, which asks Groq to parse intent, Pandas to aggregate and Plotly to build the figure, then returns a chart and insight." width="100%">
+</p>
 
 - Groq (Llama 3.3 70B) parses the intent, Pandas does the aggregation, Plotly builds the chart. The numbers come from the data engine, not the model.
 - Uploads are capped at 25 MB, 250k rows and 100 columns, and isolated per browser workspace. The README says plainly that this is isolation, not authentication.
@@ -112,11 +116,7 @@ Markdown notes in, knowledge graph out. A prototype pipeline that turns a folder
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vijitagarwal/vijitagarwal/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vijitagarwal/vijitagarwal/output/github-contribution-grid-snake.svg">
-    <img alt="Contribution graph with a snake eating the commits" src="https://raw.githubusercontent.com/vijitagarwal/vijitagarwal/output/github-contribution-grid-snake-dark.svg" width="100%">
-  </picture>
+  <img src="assets/skyline.svg" alt="Contribution skyline: the last year of contributions drawn as 3D towers, with the busiest day highlighted." width="100%">
 </p>
 
 Working on something where the AI has to hold up inside a real product? [Say hi](mailto:vijitagarwal123@gmail.com).
@@ -124,9 +124,8 @@ Working on something where the AI has to hold up inside a real product? [Say hi]
 <details>
 <summary>How this page is built</summary>
 
-- `assets/hero.svg` is hand-written SVG and CSS. The trace plays once on load, and a `prefers-reduced-motion` rule switches the animation off.
-- `assets/stats.svg` is rendered by [`scripts/update_profile.py`](scripts/update_profile.py), standard library only, on a weekly GitHub Actions schedule ([workflow](.github/workflows/update-profile.yml)).
-- The snake lives on the `output` branch. Badges and tech icons come from shields.io and skillicons.dev; anything that carries data is generated in this repo.
+- `assets/hero.svg` and `assets/dataflow.svg` are hand-written SVG and CSS. The hero plays once on load; the data-flow beads loop. Both have a `prefers-reduced-motion` rule that switches the animation off.
+- `assets/stats.svg` and `assets/skyline.svg` are rendered by [`scripts/update_profile.py`](scripts/update_profile.py), standard library only, on a weekly GitHub Actions schedule ([workflow](.github/workflows/update-profile.yml)). The skyline is your contribution calendar drawn as towers in an oblique projection, back rows painted first.
+- Badges and tech icons come from shields.io and skillicons.dev; anything that carries data is generated in this repo.
 
 </details>
-
