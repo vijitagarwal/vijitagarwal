@@ -1,0 +1,55 @@
+name: Refresh ai-world-profile ledger
+
+# Redraws ai-world-profile/ledger.svg from your public GitHub contribution calendar, so the picture never goes stale.
+# What it can touch: only the ai-world-profile folder (it commits as github-actions[bot], which does not count as one of your contributions).
+# It runs every day whether or not ai-world-profile is the theme your README shows, so switching themes later never shows an old picture.
+on:
+  schedule:
+    - cron: "23 2 * * *"            # every day at 02:23 UTC
+  workflow_dispatch:                # the "Run workflow" button in the Actions tab
+  push:
+    paths:                          # runs once when you first publish the theme, and again if you change its automation
+      - ".github/profile-kit/ai-world-profile/**"
+      - ".github/workflows/refresh-ai-world-profile.yml"
+
+permissions:
+  contents: write                   # needed to commit the redrawn graphic
+
+concurrency:
+  group: refresh-ai-world-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Redraw the graphic from your contribution calendar
+        env:
+          # Uses the built-in token. If GitHub ever refuses it, add a repository secret named PROFILE_TOKEN
+          # (a classic personal access token with no scopes ticked is enough) and it is used instead.
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 .github/profile-kit/ai-world-profile/refresh.py
+
+      - name: Commit the graphic if it changed
+        run: |
+          if [ -z "$(git status --porcelain -- ai-world-profile)" ]; then
+            echo "The graphic is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ai-world-profile
+          git commit -m "chore: refresh ai-world-profile contribution graphic"
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME"; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            echo "Push attempt $attempt did not go through (something else pushed at the same moment); trying again."
+            sleep $((attempt * 4))
+          done
+          echo "Could not push after 5 attempts. Nothing is lost: the next scheduled run draws it again." >&2
+          exit 1

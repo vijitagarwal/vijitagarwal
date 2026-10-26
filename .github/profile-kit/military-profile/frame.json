@@ -1,0 +1,5 @@
+{
+"css": "@media (prefers-reduced-motion:reduce){.mt{display:none} }\n.nm{display:none}@media (prefers-reduced-motion:reduce){.nm{display:inline} }\n.pls{animation:pls 2.4s ease-in-out infinite}@keyframes pls{50%{opacity:.35} }\n.fl{animation:fl 1.4s linear infinite}@keyframes fl{to{stroke-dashoffset:-28} }\n@media (prefers-reduced-motion:reduce){.fl,.pls{animation:none} }",
+"font_css": ".st{font-family:'Big Shoulders Stencil Display','Bahnschrift','Arial Narrow',Impact,sans-serif;font-weight:800}\n.b5,.b6,.b7{font-family:Barlow,'Segoe UI',system-ui,sans-serif}.b5{font-weight:500}.b6{font-weight:600}.b7{font-weight:700}\n.mo{font-family:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;font-weight:500}\n",
+"head": ""
+}
