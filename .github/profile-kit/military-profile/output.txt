@@ -1,1 +1,1 @@
-military-profile/radar.svg
+military-profile/assets/radar.svg

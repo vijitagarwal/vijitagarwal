@@ -1,1 +1,1 @@
-medieval-profile/castle-wall.svg
+medieval-profile/assets/castle-wall.svg

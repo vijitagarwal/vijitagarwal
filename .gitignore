@@ -2,3 +2,5 @@
 **/AGENT-PROMPT-FOLDERS.md
 **/HOW-TO-PUSH.md
 **/HOW-TO-PUSH-FOLDERS.md
+__pycache__/
+*.pyc
